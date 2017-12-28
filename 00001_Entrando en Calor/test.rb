@@ -39,10 +39,10 @@ it "La dificultad inicial de TimbaElLeon es 25" do
   expect(TimbaElLeon.dificultad).to eq 25
 end
 
-it "La dificultad de TimbaElLeon disminuye en 20 puntos si se juega 20 horas"  do
+it "La dificultad de TimbaElLeon aumenta en 20 puntos si se juega 20 horas"  do
   TimbaElLeon.reiniciar_dificultad
   TimbaElLeon.jugar!(20)
-  expect(TimbaElLeon.dificultad).to eq 5
+  expect(TimbaElLeon.dificultad).to eq 45
 end
 
 it "La dificultad de Metroide es siempre 100" do
