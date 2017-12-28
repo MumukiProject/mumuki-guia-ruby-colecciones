@@ -1,7 +1,7 @@
-¡Modelemos una biblioteca de videojuegos! :video_game: Para empezar, vamos a crear 3 videojuegos, de los que sabemos lo siguiente:
+¡Vamos a crear una biblioteca de videojuegos! :video_game: Para empezar, tendremos tres videojuegos, de los cuales sabemos lo siguiente:
 
-* :gun: `CarlosDuty`: es violento. Además, su tiempo restante de juego es `30 - cantidad_logros * 0.5`. Y si se lo juega por más de 2 horas seguidas, se le suma un logro a su cantidad.
-* :tiger: `TimaElLeon`: no es violento. El tiempo restante de juego se disminuye a medida que se juega (en el tiempo jugado); antes de empezar a jugar este es 50 horas.
-* :syringe: `DevilMayLaugh` : es violento si `nivel_sangre` es mayor a 5. Si bien este nivel arranca en 3, cada vez que se lo juega, sin importar por cuanto tiempo, se incrementa. Ah, y el tiempo restante siempre es 100.
+* :gun: `CarlosDuty`: es violento. Su dificultad se calcula como `30 - cantidad_logros * 0.5`. Y si se lo juega por más de 2 horas seguidas, se le suma un logro a su cantidad.
+* :tiger: `TimbaElLeon`: no es violento. Su dificultad inicial es 10 y crece un punto por cada hora que se juegue.
+* :rocket: `Metroide`: es violento sólo si `nivel_espacial` es mayor a 5. Este nivel arranca en 3 pero se incrementa en 1 cada vez que se lo juega, sin importar por cuánto tiempo. Además, su dificultad siempre es 100.
 
-> Declará estos tres objetos, de forma que entiendan los mensaje, `tiempo_restante`, `violento?` y `jugar!`. 
+> Declará estos tres objetos de forma que entiendan los mensajes `tiempo_restante`, `violento?` y `jugar!(un_tiempo)`. 

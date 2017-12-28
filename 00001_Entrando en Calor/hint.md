@@ -1,0 +1,1 @@
+Prestá atención a la dificultad de `TimbaElLeon`: Por ejemplo, si se lo juega durante _tres_ horas, su dificultad se incrementa en _tres_ puntos. Si se lo juega durante _siete_ horas, su dificultad se incrementa en _siete_ puntos. ¿Notás alguna coincidencia? :wink:
