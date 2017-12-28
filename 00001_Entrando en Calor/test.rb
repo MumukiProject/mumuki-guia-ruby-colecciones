@@ -2,49 +2,52 @@ it "CarlosDuty es violento"  do
   expect(CarlosDuty.violento?).to be true
 end
 
-it "TimaElLeon no es violento"  do
-  expect(!TimaElLeon.violento?).to be true
+it "TimbaElLeon no es violento"  do
+  expect(!TimbaElLeon.violento?).to be true
 end
 
-it "DevilMayLaugh por defecto NO es violento"  do
-  expect(!DevilMayLaugh.violento?).to be true
+it "Metroide inicialmente no es violento"  do
+  expect(!Metroide.violento?).to be true
 end
 
-it "DevilMayLaugh se vuelve violento si se juega muchas veces"  do
-  5.times { DevilMayLaugh.jugar!(10) end
-  expect(DevilMayLaugh.violento?).to be true
+it "Metroide se vuelve violento si se juega muchas veces"  do
+  5.times { Metroide.jugar!(10) }
+  expect(Metroide.violento?).to be true
 end
 
-it "inicialmente el tiempo del CarlosDuty es 30"  do
-  expect( CarlosDuty.tiempo_restante).to eq 30
+it "La dificultad inicial del CarlosDuty es 30"  do
+  expect(CarlosDuty.dificultad).to eq 30
 end
 
-it "si se juega al CarlosDuty por 7 horas en dos tramos distintos, su tiempo restante es 29"  do
+it "CarlosDuty no tiene logros al empezar"  do
+  expect(CarlosDuty.cantidad_logros).to eq 0
+end
+
+it "Si se juega dos veces al CarlosDuty más de dos horas seguidas, su dificultad es 29"  do
+  CarlosDuty.jugar!(5)
   CarlosDuty.jugar!(7)
-  CarlosDuty.jugar!(7)
-  expect( CarlosDuty.tiempo_restante).to eq 29
+  expect(CarlosDuty.dificultad).to eq 29
 end
 
-it "si se juega al CarlosDuty por dos periodos de una hora su tiempo restante sigue siendo 30"  do
+it "Si se juega dos veces al CarlosDuty por menos de dos horas su dificultad sigue siendo 30"  do
   CarlosDuty.jugar!(1)
   CarlosDuty.jugar!(1)
-  expect( CarlosDuty.tiempo_restante).to eq 30
+  expect(CarlosDuty.dificultad).to eq 30
 end
 
-it "tiempo restante al jugar! TimaElLeon"  do
-  expect( TimaElLeon.tiempo_restante).to eq 50
-  TimaElLeon.jugar!(20)
-  expect( TimaElLeon.tiempo_restante).to eq 30
+it "La dificultad inicial de TimbaElLeon es 25" do
+  expect(TimbaElLeon.dificultad).to eq 25
 end
 
-it "inicialmente el tiempo restante del DevilMayLaugh es 100" do
-  expect( DevilMayLaugh.tiempo_restante).to eq 100
-  
+it "La dificultad de TimbaElLeon disminuye en 20 puntos si se juega 20 horas"  do
+  TimbaElLeon.reiniciar_dificultad
+  TimbaElLeon.jugar!(20)
+  expect(TimbaElLeon.dificultad).to eq 5
 end
 
-it "si se juega dos veces al DevilMayLaugh, su tiempo restante sigue siendo 100"  do
-  TimaElLeon.jugar!(20)
-  TimaElLeon.jugar!(10)
-  expect( DevilMayLaugh.tiempo_restante).to eq 100
+it "La dificultad de Metroide es siempre 100" do
+  expect(Metroide.dificultad).to eq 100
+  Metroide.jugar!(20)
+  Metroide.jugar!(10)
+  expect(Metroide.dificultad).to eq 100
 end
-
