@@ -1,5 +1,5 @@
-¡Ya tenemos creados nuestros objetos para nuestra colección de videojuegos!
+¡Ya tenemos creados los objetos para nuestra colección de videojuegos! :clap:
 
-Vale la pena notar que todos estos objetos responden a mensajes polimórficos como: `tiempo_restante`, `violento?` y `jugar!(tiempo)` esto, por supuesto, no es casualidad. 
+Es importante que notes que todos estos objetos responden a los mismos mensajes: `dificultad`, `violento?` y `jugar!(un_tiempo)`. [Como aprendiste con las golondrinas](https://staging.mumuki.io/exercises/3331-programacion-con-objetos-polimorfismo-y-encapsulamiento-polimorque), nuestros videojuegos son **polimórficos** para ese conjunto de mensajes.
 
-Cuando querramos manejar a estos objetos como conjunto vamos a querer pedirles las mismas cosas (o enviar los mismos mensajes) a todos ellos. 
+¡Esto significa que podemos enviarles los mismos mensajes a cualquiera de los videojuegos y usarlos indistintamente! :muscle:
