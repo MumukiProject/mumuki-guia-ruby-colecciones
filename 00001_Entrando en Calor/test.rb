@@ -23,16 +23,16 @@ it "CarlosDuty no tiene logros al empezar"  do
   expect(CarlosDuty.cantidad_logros).to eq 0
 end
 
-it "Si se juega dos veces al CarlosDuty más de dos horas seguidas, su dificultad es 29"  do
-  CarlosDuty.jugar!(5)
-  CarlosDuty.jugar!(7)
-  expect(CarlosDuty.dificultad).to eq 29
-end
-
 it "Si se juega dos veces al CarlosDuty por menos de dos horas su dificultad sigue siendo 30"  do
   CarlosDuty.jugar!(1)
   CarlosDuty.jugar!(1)
   expect(CarlosDuty.dificultad).to eq 30
+end
+
+it "Si se juega dos veces al CarlosDuty más de dos horas seguidas, su dificultad es 29"  do
+  CarlosDuty.jugar!(5)
+  CarlosDuty.jugar!(7)
+  expect(CarlosDuty.dificultad).to eq 29
 end
 
 it "La dificultad inicial de TimbaElLeon es 25" do
