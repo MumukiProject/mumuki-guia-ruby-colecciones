@@ -14,5 +14,5 @@ it "El tercer juego de la Biblioteca es TimbaElLeon"  do
 end
 
 it "La Biblioteca tiene únicamente esos tres juegos"  do
-  expect(Biblioteca.juegos.to be [CarlosDuty, TimbaElLeon, TimbaElLeon]
+  expect(Biblioteca.juegos).to be [CarlosDuty, TimbaElLeon, TimbaElLeon]
 end
