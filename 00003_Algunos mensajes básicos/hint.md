@@ -1,1 +1,0 @@
-Para saber si la `Biblioteca` es `completa?`, 
