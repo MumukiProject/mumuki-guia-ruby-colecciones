@@ -1,4 +1,4 @@
 ---
 expectations:
-- binding: "*"
+- binding: TimbaElLeon
   inspection: Not:Uses:jugar!
