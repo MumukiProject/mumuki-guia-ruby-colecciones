@@ -18,7 +18,7 @@ it "Si se adquieren suficientes juegos la Biblioteca es completa" do
   Biblioteca.adquirir_juego!(Metroide)
   Biblioteca.adquirir_juego!(Metroide)
   expect(Biblioteca.completa?).to be true
-  7.times { Biblioteca.delete(Metroide) } 
+  7.times { Biblioteca.juegos.delete(Metroide) } 
 end
 
 it "CarlosDuty es recomendable si no está en la biblioteca" do
