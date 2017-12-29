@@ -1,11 +1,1 @@
-:warning: Mucho cuidado, la lista debe estar conformada por _referencias_ a los objetos y no por strings con sus nombres. Por ejemplo, si queremos una lista con los objetos `pepita` y `anastasia`, la escribimos asi:
-
-```ruby
-mis_golondrinas = [pepita, anastasia] 
-```
-
-Y **no** así: 
-
-```ruby
-mis_golondrinas = ["pepita", "anastasia"] 
-```
+:warning: ¡Cuidado con el orden! La lista es un tipo de colección donde **el orden importa**. Es decir, no es lo mismo poner primero el CarlosDuty que agregarlo al final. ¡Atención a eso! :open_mouth:
