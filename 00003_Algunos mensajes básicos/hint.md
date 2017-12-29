@@ -1,1 +1,1 @@
-¡No olvides los mensajes que aprendiste a utilizar con los números de la suerte! Son `push`, `delete`, `include?` y `size`.
+Para saber si la `Biblioteca` es `completa?`, 
