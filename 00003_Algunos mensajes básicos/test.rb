@@ -5,7 +5,7 @@ it "Si se adquiere Metroide se agrega a los juegos y suma puntos"  do
 end
 
 it "Si se borra CarlosDuty la biblioteca queda con dos juegos" do
-  Biblioteca.borrarJuego(CarlosDuty)
+  Biblioteca.borrar_juego(CarlosDuty)
   expect(Biblioteca.juegos.include?(CarlosDuty)).to be false
   expect(Biblioteca.juegos.size()).to eq 2
   expect(Biblioteca.puntos()).to eq 0
@@ -28,11 +28,11 @@ it "Si se adquieren suficientes juegos la Biblioteca es completa" do
 end
 
 it "CarlosDuty es recomendable si no está en la biblioteca" do
-  expect(Biblioteca.esJuegoRecomendable(CarlosDuty)).to be false
-  Biblioteca.borrarJuego(CarlosDuty)
-  expect(Biblioteca.esJuegoRecomendable(CarlosDuty)).to be true
+  expect(Biblioteca.juego_recomendable(CarlosDuty)).to be false
+  Biblioteca.borrar_juego(CarlosDuty)
+  expect(Biblioteca.juego_recomendable(CarlosDuty)).to be true
 end
 
 it "TimbaElLeon no es recomendable porque no es violento" do
-  expect(Biblioteca.esJuegoRecomendable(TimbaElLeon)).to be false
+  expect(Biblioteca.juego_recomendable(TimbaElLeon)).to be false
 end
