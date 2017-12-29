@@ -1,0 +1,17 @@
+---
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- value: un_numero vale 7
+  checked: true
+- value: un_numero vale 8
+  checked: false
+- value: otro_numero vale 5
+  checked: false
+- value: otro_numero vale 10
+  checked: true
