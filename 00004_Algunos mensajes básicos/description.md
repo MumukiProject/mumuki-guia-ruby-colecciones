@@ -14,18 +14,17 @@ numeros_de_la_suerte.delete 7
 
 También podemos saber saber si un elemento está en la colección usando `include?`:
 
-y la cantidad de elementos que tiene:
-
 ```ruby
 numeros_de_la_suerte.include? 6
   # Devuelve true, porque lo contiene...
 numeros_de_la_suerte.include? 8
   # ...devuelve false, porque no lo contiene.
   
-Finalmente podemos saber la cantidad de elementos que tiene:
+Finalmente, podemos saber la cantidad de elementos que tiene enviando `size`:
+
 ```ruby
 numeros_de_la_suerte.size
   # Devuelve 3, porque contiene al 6, 42 y 9
 ```
 
-> ¡Probá enviarle los mensajes `push`, `delete`, `include?(un_numero)` y `size` a la colección `numeros_de_la_suerte`!
+> ¡Probá enviarle los mensajes `push`, `delete`, `include?` y `size` a la colección `numeros_de_la_suerte`!
