@@ -1,10 +1,10 @@
-it "si se adquiere DevilMayLaugh se agrega a los juegos y suma puntos"  do
-  biblioteca.adquirir_juego!(DevilMayLaugh)
-  expect(biblioteca.juegos.include?(DevilMayLaugh)).to be true
+it "Si se adquiere Metroide se agrega a los juegos y suma puntos"  do
+  biblioteca.adquirir_juego!(Metroide)
+  expect(biblioteca.juegos.include?(Metroide)).to be true
   expect(biblioteca.puntos()).to eq 150
 end
 
-it "si se borra TimaElLeon la biblioteca queda con un solo juego" do
+it "si se borra TimbaElLeon la biblioteca queda con un solo juego" do
   biblioteca.borrarJuego(TimaElLeon)
   expect(biblioteca.juegos.include?(TimaElLeon)).to be false
   expect( biblioteca.juegos.size()).to eq 1
