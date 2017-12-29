@@ -19,7 +19,8 @@ numeros_de_la_suerte.include? 6
   # Devuelve true, porque lo contiene...
 numeros_de_la_suerte.include? 8
   # ...devuelve false, porque no lo contiene.
-  
+```
+
 Finalmente, podemos saber la cantidad de elementos que tiene enviando `size`:
 
 ```ruby
