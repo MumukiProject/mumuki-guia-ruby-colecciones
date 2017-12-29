@@ -12,7 +12,7 @@ numeros_de_la_suerte.delete 7
   # ...y quita el 7.
 ```
 
-También podemos saber saber si un elemento está en la colección:
+También podemos saber saber si un elemento está en la colección usando `include?`:
 
 y la cantidad de elementos que tiene:
 
