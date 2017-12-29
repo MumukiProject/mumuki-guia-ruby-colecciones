@@ -1,4 +1,4 @@
 ---
 expectations:
 - binding: TimbaElLeon
-  inspection: Not:Uses:jugar!
+  inspection: Not:Calls:jugar!
