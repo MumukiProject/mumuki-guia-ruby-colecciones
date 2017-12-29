@@ -1,1 +1,1 @@
-:warning: ¡Cuidado con el orden! La lista es un tipo de colección donde **el orden importa**. Es decir, no es lo mismo poner primero el CarlosDuty que agregarlo al final. ¡Atención a eso! :open_mouth:
+:warning: ¡Cuidado con el orden! La lista es un tipo de colección donde **el orden importa**. Es decir, no es lo mismo poner un objeto al principio que agregarlo al final. ¡Atención a eso! :open_mouth:
