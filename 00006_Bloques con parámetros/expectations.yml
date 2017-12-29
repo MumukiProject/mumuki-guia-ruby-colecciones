@@ -1,4 +1,4 @@
 ---
 expectations:
-- binding: jugar_TimbaElLeon
-  inspection: Uses:jugar!
+- binding: "*"
+  inspection: Not:Uses:jugar!
