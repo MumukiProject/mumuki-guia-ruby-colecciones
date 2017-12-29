@@ -3,6 +3,7 @@ it "Si se borra CarlosDuty la Biblioteca queda con dos juegos" do
   expect(Biblioteca.juegos.include?(CarlosDuty)).to be false
   expect(Biblioteca.juegos.size()).to eq 2
   expect(Biblioteca.puntos()).to eq 0
+  Biblioteca.juegos.push(CarlosDuty)
 end
 
 it "Si se adquiere Metroide se agrega a los juegos y suma puntos"  do
