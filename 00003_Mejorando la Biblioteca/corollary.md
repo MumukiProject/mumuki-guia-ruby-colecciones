@@ -1,6 +1,6 @@
 Hay una diferencia notable entre los primeros 2 mensajes (`push` y `delete`) y los otros 2 (`include?` y `size`): 
 
-1. los primeros, al ser evaluados, _modifican_ la lista. Dicho de otra forma, producen un _**efecto**_ sobre la lista en sí (agregan o quitan un elemento del conjunto)
-2. los otros dos sólo nos retornan información sobre mi conjunto. Son métodos **sin efecto**. 
+1. `push` y `delete`, al ser evaluados, _modifican_ la colección. Dicho de otra forma, producen un **efecto** sobre la lista en sí: agregan o quitan un elemento del conjunto.
+2. `include?` y `size` sólo nos retornan información sobre la colección. Son métodos **sin efecto**. 
 
-Y por si lo estás pensando, sí, `push` y `delete` tienen efecto, pero no terminan en `!`. Es una inconsistencia de Ruby :pensive:.
+Ahora que ya dominás las listas, es el turno de subir un nivel más... :stuck_out_tongue_winking_eye:
