@@ -1,1 +1,1 @@
-Recordá que la `Biblioteca` podés probar tu solución utilizando los videojuegos que creaste en el primer ejercicio: `CarlosDuty`, `TimbaElLeon` y `Metroide`.
+¡No olvides los mensajes que aprendiste a utilizar con los números de la suerte! Son `push`, `delete`, `include?` y `size`.
