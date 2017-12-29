@@ -7,7 +7,7 @@ un_numero = 7
 incrementador = proc { un_numero = un_numero + 1 }
 ```
 
-Ahora avancemos un pasito: en este segundo ejemplo, al _bloque_ `{ otro_numero = otro_numero * 2 }` le enviamos el mensaje _call_, que le indica al bloque que **evalúe la secuencia de envíos de mensajes** dentro de él.
+Ahora avancemos un pasito: en este segundo ejemplo, al _bloque_ `{ otro_numero = otro_numero * 2 }` le enviamos el mensaje _call_, que le indica que **evalúe la secuencia de envíos de mensajes** dentro de él.
 
 ```ruby
 otro_numero = 5
