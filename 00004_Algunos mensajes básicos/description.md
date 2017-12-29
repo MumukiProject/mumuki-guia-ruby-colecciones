@@ -16,9 +16,9 @@ También podemos saber saber si un elemento está en la colección usando `inclu
 
 ```ruby
 numeros_de_la_suerte.include? 6
-  # Devuelve true, porque lo contiene...
+  # Devuelve true, porque contiene al 6...
 numeros_de_la_suerte.include? 8
-  # ...devuelve false, porque no lo contiene.
+  # ...devuelve false, porque no contiene al 8.
 ```
 
 Finalmente, podemos saber la cantidad de elementos que tiene enviando `size`:
