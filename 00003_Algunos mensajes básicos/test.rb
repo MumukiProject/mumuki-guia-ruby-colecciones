@@ -18,11 +18,12 @@ it "Si se adquieren suficientes juegos la Biblioteca es completa" do
   Biblioteca.adquirir_juego!(Metroide)
   Biblioteca.adquirir_juego!(Metroide)
   expect(Biblioteca.completa?).to be true
+  7.times { Biblioteca.delete(Metroide) } 
 end
 
 it "CarlosDuty es recomendable si no está en la biblioteca" do
   expect(Biblioteca.juego_recomendable?(CarlosDuty)).to be false
-  Biblioteca.borrar_juego(CarlosDuty)
+  Biblioteca.borrar_juego!(CarlosDuty)
   expect(Biblioteca.juego_recomendable?(CarlosDuty)).to be true
 end
 
