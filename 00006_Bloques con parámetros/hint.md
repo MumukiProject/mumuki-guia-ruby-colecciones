@@ -1,0 +1,1 @@
+¿Y cómo se hace en los casos en los que el bloque recibe un único parámetro, en lugar de dos? ¡Fácil! :grin: Se escribe de la misma forma, entre barras verticales `|`, sin utilizar comas.
