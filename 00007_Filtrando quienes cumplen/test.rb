@@ -3,5 +3,5 @@ it "Los juegos de la Biblioteca son CarlosDuty y dos copias de TimbaElLeon"  do
 end
 
 it "CarlosDuty es el único juego violento"  do
-  expect(Biblioteca.juegos_violentos).to be [CarlosDuty]
+  expect(Biblioteca.juegos_violentos).to eq [CarlosDuty]
 end
