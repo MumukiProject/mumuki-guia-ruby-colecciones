@@ -13,5 +13,4 @@ mayores_a_3 = algunos_numeros.select { |un_numero| unNumero > 3}
 
 > _Mientras tanto, en nuestra biblioteca de videojuegos..._
 >
->  Queremos agregar el método `juegos_violentos` que retorna aquellos juegos que lo sean.
->
+>  Agregá el método `juegos_violentos` que retorna los juegos de la `Biblioteca` que lo sean.
