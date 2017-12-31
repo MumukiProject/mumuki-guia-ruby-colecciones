@@ -4,7 +4,7 @@ Volviendo a nuestra colección de alumnos. Ya preguntamos si todos aprobaron o s
 alumnos.count { |un_alumno| un_alumno.aprobo? }
 ```
 
-`count` nos dice cuántos elementos de una colección cumplen la condición. Por otro lado, para calcular sumatorias tenemos el mensaje `sum`. Si quisiéramos conocer la suma de todas las notas de los alumnos, por ejemplo, podemos hacer:
+`count` nos dice cuántos elementos de una colección cumplen la condición. Por otro lado, para calcular sumatorias tenemos el mensaje `sum`. Si queremos conocer la suma de todas las notas de los alumnos, por ejemplo, podemos hacer:
 
 ```ruby
 alumnos.sum { |un_alumno| un_alumno.nota_en_examen }
