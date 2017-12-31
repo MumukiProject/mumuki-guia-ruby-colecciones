@@ -2,3 +2,5 @@
 expectations:
 - binding: dificultad_violenta
   inspection: Uses:map
+- binding: dificultad_violenta
+  inspection: Uses:juegos_violentos
