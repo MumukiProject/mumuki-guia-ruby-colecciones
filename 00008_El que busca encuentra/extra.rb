@@ -12,7 +12,7 @@ module CarlosDuty
   end
 
   def self.dificultad
-    30 - cantidad_logros * 0.5
+    30 - @cantidad_logros * 0.5
   end
 end
 
