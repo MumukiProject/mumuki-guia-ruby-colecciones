@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: mucha_violencia?
+  inspection: Uses:all?
+- binding: muy_dificil?
+  inspection: Uses:any?
