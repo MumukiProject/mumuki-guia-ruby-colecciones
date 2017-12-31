@@ -15,4 +15,3 @@ mayores_a_3 = algunos_numeros.select { |un_numero| unNumero > 3}
 >
 >  Queremos agregar el método `juegos_violentos` que retorna aquellos juegos que lo sean.
 >
-> Recordá que un juego debería entender esViolento() y tiempoRestante()
