@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: juego_mas_dificil_que
+  inspection: Uses:find
