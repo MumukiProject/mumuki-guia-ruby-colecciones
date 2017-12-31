@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: juegos_violentos
+  inspection: Uses:select
