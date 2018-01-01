@@ -1,4 +1,4 @@
-/*...solution[1]...*/
+#...solution[1]...#
 
 def OtroJuego
   def self.violento?
