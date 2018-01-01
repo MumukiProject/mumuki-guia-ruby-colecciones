@@ -1,6 +1,6 @@
 #...solution[1]...#
 
-def OtroJuego
+module OtroJuego
   def self.violento?
     false
   end
