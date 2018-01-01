@@ -7,7 +7,7 @@ it "CarlosDuty es más difícil que 10"  do
 end
 
 it "Metroide es más difícil que 90"  do
-  expect(Biblioteca.juego_mas_dificil_que(90)).to eq nil
+  expect(Biblioteca.juego_mas_dificil_que(90)).to eq Metroide
 end
 
 it "Ningún juego es más difícil que 110"  do
