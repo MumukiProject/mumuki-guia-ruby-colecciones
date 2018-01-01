@@ -14,7 +14,6 @@ module CarlosDuty
   def self.dificultad
     30 - @cantidad_logros * 0.5
   end
-  
 end
 
 module TimbaElLeon
@@ -30,5 +29,20 @@ module TimbaElLeon
   def self.dificultad
     @dificultad
   end
+end
 
+module Metroide
+  @nivel_espacial = 3
+  @dificultad = 100
+  def self.violento?
+    @nivel_espacial > 5
+  end
+
+  def self.jugar!(un_tiempo)
+    @nivel_espacial += 1
+  end
+  
+  def self.dificultad
+    @dificultad
+  end
 end
