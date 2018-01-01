@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: jugar_a_todo!
+  inspection: Uses:each
