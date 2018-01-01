@@ -19,3 +19,16 @@ module TimbaElLeon
   def self.dificultad
     @dificultad
   end
+end
+
+module Metroide
+  @nivel_espacial = 6
+  @dificultad = 100
+  def self.violento?
+    @nivel_espacial > 5
+  end
+  
+  def self.dificultad
+    @dificultad
+  end
+end
