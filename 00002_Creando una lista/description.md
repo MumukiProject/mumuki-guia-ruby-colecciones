@@ -8,4 +8,4 @@ Por ejemplo, la lista de números 2, 3, 3 y 9 se escribe así:
 [2, 3, 3, 9]
 ```
 
-> Veamos si se entiende: creá un objeto `Biblioteca` que tenga un atributo `juegos` con su correspondiente getter. La `Biblioteca` tiene que tener en primer lugar el juego `CarlosDuty` y luego **dos veces** el juego `TimbaElLeon`.
+> Veamos si se entiende: creá un objeto `Biblioteca` que tenga un atributo `juegos` con su correspondiente getter. La `Biblioteca` tiene que tener en primer lugar el juego `CarlosDuty`, luego `TimbaElLeon` y por último `Metroide`.

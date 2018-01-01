@@ -29,7 +29,6 @@ module TimbaElLeon
   def self.dificultad
     @dificultad
   end
-
 end
 
 module Metroide
