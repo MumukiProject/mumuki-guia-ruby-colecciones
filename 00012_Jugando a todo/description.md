@@ -12,4 +12,4 @@ golondrinas
 
 Ya que casi terminamos la guía y aprovechando que tenemos una colección de videojuegos, lo que queremos es... ¡jugar a todos! :smile:
 
-> Definí el método `jugar_a_todo!` en la `Biblioteca, que haga jugar a cada uno de los juegos durante 5 horas. Recordá que los juegos entienden `jugar!(un_tiempo)`.
+> Definí el método `jugar_a_todo!` en la `Biblioteca`, que haga jugar a cada uno de los juegos durante 5 horas. Recordá que los juegos entienden `jugar!(un_tiempo)`.
