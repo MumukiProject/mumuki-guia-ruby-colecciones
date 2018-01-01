@@ -9,3 +9,13 @@ module CarlosDuty
     30 - @cantidad_logros * 0.5
   end
 end
+
+module TimbaElLeon
+  @dificultad = 25
+  def self.violento?
+    false
+  end
+  
+  def self.dificultad
+    @dificultad
+  end
