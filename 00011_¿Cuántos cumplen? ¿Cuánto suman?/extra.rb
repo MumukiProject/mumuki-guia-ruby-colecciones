@@ -5,7 +5,7 @@ module JuegoViolento
     true
   end
   
-  def dificultad
+  def self.dificultad
     100
   end
 end
