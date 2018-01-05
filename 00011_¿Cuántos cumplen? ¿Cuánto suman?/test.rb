@@ -8,5 +8,5 @@ end
 
 it "El promedio de violencia es 125 si agrego un juego violento de dificultad 95"  do
   Biblioteca.juegos.push(JuegoViolento)
-  expect(Biblioteca.promedio_de_violencia).to eq 95
+  expect(Biblioteca.promedio_de_violencia).to eq 125
 end
