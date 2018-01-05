@@ -6,6 +6,6 @@ module JuegoViolento
   end
   
   def self.dificultad
-    100
+    95
   end
 end
