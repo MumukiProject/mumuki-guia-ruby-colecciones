@@ -4,7 +4,7 @@ Lo que usamos es el mensaje `select` de las colecciones. `select` recibe un _blo
 
 ```ruby
 algunos_numeros = [1, 2, 3, 4, 5]
-mayores_a_3 = algunos_numeros.select { |un_numero| unNumero > 3 }
+mayores_a_3 = algunos_numeros.select { |un_numero| un_numero > 3 }
 ```
 
 ¿Y cuándo se aplica ese bloque que recibe el `select`? ¡El `select` es quien decide! :hushed: La colección va a aplicarlo con cada uno de los objetos (`un_numero`) cuando corresponda durante el seleccionado (o filtrado) de elementos.
