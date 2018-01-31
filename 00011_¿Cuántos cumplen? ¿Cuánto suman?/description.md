@@ -10,4 +10,4 @@ alumnos.count { |un_alumno| un_alumno.aprobo? }
 alumnos.sum { |un_alumno| un_alumno.nota_en_examen }
 ```
 
-> Veamos si se entiende: agregá a la `Biblioteca` el método `promedio_de_violencia`, que divida la sumatoria de dificultad de los juegos por la cantidad de juegos de la `Biblioteca` que sean violentos.
+> Veamos si se entiende: agregá a la `Biblioteca` el método `promedio_de_violencia`, cuyo valor sea la sumatoria de dificultad de los juegos violentos dividida por la cantidad de juegos violentos de la `Biblioteca`.

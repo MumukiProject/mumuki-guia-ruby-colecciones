@@ -9,4 +9,4 @@ En otras palabras, la nueva colección tendrá lo que devuelve el mensaje que se
 
 Al igual que el resto de los mensajes que vimos hasta ahora, `map` no modifica la colección original ni sus elementos, sino que devuelve una **nueva** colección.
 
-> Agregá a la biblioteca un método llamado `dificultad_violenta` que retorne una colección con la dificultad de los `juegos_violentos` que tenga.
+> Agregá a la `Biblioteca` un método llamado `dificultad_violenta` que retorne una colección con la dificultad de sus `juegos_violentos`.
