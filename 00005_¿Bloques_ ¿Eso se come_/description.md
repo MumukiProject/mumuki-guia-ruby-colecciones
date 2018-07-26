@@ -1,6 +1,6 @@
 ¡Pausa! :hand: Antes de continuar, necesitamos conocer a unos nuevos amigos: los _bloques_.
 
-Los _bloques_ son **objetos** que representan un mensaje o una secuencia de envíos de mensajes, **sin ejecutar**, lista para ser evaluada cuando corresponda. La palabra con la que se definen los bloques en Ruby es _proc_. Por ejemplo, en este caso le asignamos un _bloque_ a `@incrementador`:
+Los _bloques_ son **objetos** que representan un mensaje o una secuencia de envíos de mensajes, **sin ejecutar**, lista para ser evaluada cuando corresponda. La palabra con la que se definen los bloques en Ruby es _proc_. Por ejemplo, en este caso le asignamos un _bloque_ a `incrementador`:
 
 ```ruby
 un_numero = 7
