@@ -1,4 +1,0 @@
----
-expectations:
-- binding: promedio_de_violencia
-  inspection: Uses:count
