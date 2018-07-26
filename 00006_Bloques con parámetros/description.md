@@ -12,4 +12,5 @@ Para aplicar el bloque `sumar_a_otros_dos`, se le pasan los parámetros deseados
 => 6
 ```
 
-> Volvamos a los videojuegos... declará la variable `jugar_a_timba` y asignale un bloque que reciba un único parámetro. El bloque debe hacer que se juegue a `TimbaElLeon` durante ese tiempo. ¡Podés ver el objeto `TimbaElLeon` en la solapa Biblioteca (no confundir con nuestro objeto `Biblioteca` :stuck_out_tongue_winking_eye:)!
+> Volvamos a los videojuegos... Asignale a la variable `jugar_a_timba` un bloque que reciba un único parámetro. El bloque recibe una cantidad de minutos y debe hacer que se juegue a `TimbaElLeon` durante ese tiempo, pero recordá que `jugar!` espera una cantidad de horas. 
+¡Podés ver el objeto `TimbaElLeon` en la solapa Biblioteca (no confundir con nuestro objeto `Biblioteca` :stuck_out_tongue_winking_eye:)!
