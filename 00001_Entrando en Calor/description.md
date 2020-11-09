@@ -1,4 +1,4 @@
-¡Vamos a crear una biblioteca de videojuegos! :video_game: Para empezar, tendremos tres videojuegos, de los cuales sabemos lo siguiente:
+¡Vamos a crear una biblioteca de videojuegos! :video_game: Para empezar, tendremos tres videojuegos, de los cuales sabemos lo siguiente: 
 
 * :gun: `CarlosDuty`: es violento. Su dificultad se calcula como `30 - @cantidad_logros * 0.5`. Y si se lo juega por más de 2 horas seguidas, se le suma un logro a su cantidad. Inicialmente, el juego no tiene logros.
 * :tiger: `TimbaElLeon`: no es violento. Su dificultad inicial es 25 y crece un punto por cada hora que se juegue.
