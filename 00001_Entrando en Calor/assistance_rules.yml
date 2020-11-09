@@ -1,0 +1,8 @@
+---
+rules:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - CarlosDuty Not:Uses:@dificultad
+  then: "`CarlosDuty` calcula su dificultad en el método `dificultad`.  No la guarda
+    en un atributo `@dificultad`"
