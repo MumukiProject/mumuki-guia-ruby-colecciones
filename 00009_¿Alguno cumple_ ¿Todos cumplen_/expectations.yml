@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: mucha_violencia?
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: mucha_violencia?
   inspection: Uses:all?
-- binding: muy_dificil?
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: muy_dificil?
   inspection: Uses:any?

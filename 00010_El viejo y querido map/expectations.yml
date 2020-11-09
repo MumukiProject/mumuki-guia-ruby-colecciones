@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: dificultad_violenta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: dificultad_violenta
   inspection: Uses:map
-- binding: dificultad_violenta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: dificultad_violenta
   inspection: Uses:juegos_violentos
