@@ -7,7 +7,7 @@ Por ejemplo, si queremos que de una colección de golondrinas, aquellas con ener
 ```ruby
 golondrinas
   .select { |una_golondrina| una_golondrina.energia > 100 }
-  .each { |una_golondrina| una_golondrina.volar_hacia!(Iruya) }
+  .each { |una_golondrina| una_golondrina.volar_hacia! Iruya }
 ```
 
 Ya que casi terminamos la guía y aprovechando que tenemos una colección de videojuegos, lo que queremos es... ¡jugar a todos! :smile:
