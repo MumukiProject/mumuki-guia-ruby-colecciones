@@ -14,4 +14,4 @@ otro_numero = 5
 duplicador = proc { otro_numero = otro_numero * 2 }.call
 ```
 
-¡Es hora de poner a prueba tu conocimiento! :open_mouth: Marcá las respuestas correctas:
+> ¡Es hora de poner a prueba tu conocimiento! :open_mouth: Marcá las respuestas correctas:
