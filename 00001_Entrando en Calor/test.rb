@@ -1,3 +1,18 @@
+it "CarlosDuty solo debe tener el atributo @cantidad_logros" do
+    expect(CarlosDuty.intance_variables.size).to be 1
+    expect(CarlosDuty.instance_variables.include? :@cantidad_logros).to be true
+end
+
+it "TimbaElLeon solo debe tener el atributo @dificultad" do
+    expect(TimbaElLeon.intance_variables.size).to be 1
+    expect(TimbaElLeon.instance_variables.include? :@dificultad).to be true
+end
+
+it "Metroide solo debe tener el atributo @nivel_espacial" do
+    expect(Metroide.intance_variables.size).to be 1
+    expect(Metroide.instance_variables.include? :@nivel_espacial).to be true
+end
+
 it "CarlosDuty es violento"  do
   expect(CarlosDuty.violento?).to be true
 end
