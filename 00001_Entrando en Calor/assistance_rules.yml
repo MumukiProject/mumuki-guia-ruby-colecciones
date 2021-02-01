@@ -23,3 +23,8 @@ rules:
     - dificultad Not:Assigns
   then: El método `dificultad` solo debe retornar la dificultad de un juego, no declarar
     ni modificar atributos
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+    these_expectations_failed:
+    - "* Except:HasRedundantIf"
+  then: No hace falta utilizar `if` para responder si un juego es violento
