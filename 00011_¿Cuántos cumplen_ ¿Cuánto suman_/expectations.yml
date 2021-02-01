@@ -1,5 +1,0 @@
----
-expectations:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: promedio_de_violencia
-  inspection: Delegates
