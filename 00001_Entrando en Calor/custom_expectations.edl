@@ -1,8 +1,0 @@
-expectation "`CarlosDuty` está declarando atributos demás.":
-  within `CarlosDuty` count(declares attribute) <= 1;
-  
-expectation "`TimbaElLeon` está declarando atributos demás.":
-  within `TimbaElLeon` count(declares attribute) <= 1;
-  
-expectation "`Metroide` está declarando atributos demás.":
-  within `Metroide` count(declares attribute) <= 1;

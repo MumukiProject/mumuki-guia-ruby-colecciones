@@ -1,2 +1,0 @@
-expectation "El método `promedio_de_violencia` debería delegar parte del problema en otros métodos para dividir en subtareas.":
-   within `promedio_de_violencia` count(delegates) >= 2; 
