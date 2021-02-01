@@ -14,6 +14,6 @@ mayores_a_3 = algunos_numeros.select { |un_numero| un_numero > 3 }
 => [4, 5]
 ```
 
-> _Mientras tanto, en nuestra biblioteca de videojuegos..._
+> _Mientras tanto, en nuestra juegoteca..._
 >
->  ¡Ahora te toca a vos! Agregá el método `juegos_violentos` que retorna los juegos de la `Biblioteca` que cumplan `violento?`.
+>  ¡Ahora te toca a vos! Agregá el método `juegos_violentos` que retorna los juegos de la `Juegoteca` que cumplan `violento?`.
