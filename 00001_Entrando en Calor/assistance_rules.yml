@@ -16,7 +16,7 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - violento? Not:Assigns
-  then: Para saber si un juego es `violento?` no hace falta utilizar un atributo
+  then: para saber si un juego es `violento?` no hace falta utilizar un atributo
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
