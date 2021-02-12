@@ -10,7 +10,7 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - Metroide Not:Uses:@dificultad
-  then: La dificultad de `Metroide` es siempre `100` en el método `dificultad`.  No
+  then: la dificultad de `Metroide` es siempre `100` en el método `dificultad`.  No
     la guarda en un atributo `@dificultad`
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
@@ -21,10 +21,10 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - dificultad Not:Assigns
-  then: El método `dificultad` solo debe retornar la dificultad de un juego, no declarar
+  then: el método `dificultad` solo debe retornar la dificultad de un juego, no declarar
     ni modificar atributos
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - "* Except:HasRedundantIf"
-  then: No hace falta utilizar `if` para responder si un juego es violento
+  then: no hace falta utilizar `if` para responder si un juego es violento
