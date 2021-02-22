@@ -1,9 +1,9 @@
-Hasta ahora solo vimos un tipo de colección: las listas.
+Hasta ahora solo vimos un tipo de colección: las listas. 
 
 Otro tipo muy común de colecciones son los _sets_, los cuales tienen sus diferencias con las listas:
 
 * no admiten elementos repetidos;
-* sus elementos no tienen un orden determinado. 
+* sus elementos no tienen un orden determinado.
 
 Vamos a ver un ejemplo transforma una lista en un set utilizando `to_set`:
 
