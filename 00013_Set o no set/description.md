@@ -5,6 +5,8 @@ Otro tipo muy común de colecciones son los _sets_, los cuales tienen sus difere
 * no admiten elementos repetidos;
 * sus elementos no tienen un orden determinado. 
 
+Vamos a ver un ejemplo transforma una lista en un set utilizando `to_set`:
+
 ```ruby
 ム numeros_aleatorios = [1,27,8,7,8,27,87,1]
 ム numeros_aleatorios
