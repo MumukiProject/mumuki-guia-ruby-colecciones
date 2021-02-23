@@ -15,4 +15,4 @@ Vamos a ver un ejemplo transforma una lista en un set utilizando `to_set`:
 => #<Set: {1, 27, 8, 7, 87}>
 ```
 
-> ¿Cuáles de los siguientes mensajes puedo enviarle a un set? :thinking:
+> ¿Cuáles de los siguientes creés que puedo enviarle a un set? :thinking:
