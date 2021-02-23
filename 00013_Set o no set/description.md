@@ -1,4 +1,4 @@
-Hasta ahora solo vimos un tipo de colección: las listas. ¡Pero hay más! :raised_hands:
+Hasta ahora sólo vimos un tipo de colección: las listas. ¡Pero hay más! :raised_hands:
 
 Otro tipo muy común de colecciones son los _sets_, los cuales tienen sus diferencias con las listas:
 
