@@ -10,7 +10,7 @@ De manera muy similar podemos saber si **alguno** de la colección cumple cierta
 alumnos.any? { |un_alumno| un_alumno.aprobo? }
 ```
 
-> Declará los siguientes métodos en nuestra `Juegoteca`:
+> Definí los siguientes métodos en nuestra `Juegoteca`:
 >
 > * `mucha_violencia?`: se cumple si todos los juegos que posee son violentos.
 > * `muy_dificil?`: nos dice si alguno de los juegos tiene más de 25 puntos de dificultad.
