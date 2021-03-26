@@ -1,3 +1,5 @@
-¡Excelente! Ya tenemos creada la `Juegoteca` con algunos juegos. :tada:
+¡Excelente! Ya tenemos creada la `Juegoteca` con algunos juegos:
 
-¿Pero qué más podemos hacer con las colecciones? Pasemos al siguiente ejercicio...
+<img src="https://raw.githubusercontent.com/MumukiProject/mumuki-guia-ruby-colecciones/master/assets/objetos_5_1616781719995.2.svg" alt="Referencias de una colección" width="350" height="auto">
+
+¿Pero qué más podemos hacer con las colecciones? :thinking: Pasemos al siguiente ejercicio...
