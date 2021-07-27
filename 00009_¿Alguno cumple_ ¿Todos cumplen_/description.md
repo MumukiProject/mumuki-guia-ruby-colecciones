@@ -1,13 +1,13 @@
-Para saber si **todos** los elementos de una colección cumplen un cierto criterio podemos usar el mensaje `all?`, que también recibe un bloque. Por ejemplo, si tenemos una colección de alumnos, podemos saber si todos aprobaron :smile: de la siguiente forma:
+Para saber si **todos** los elementos de una colección cumplen un cierto criterio podemos usar el mensaje `all?`, que también recibe un bloque. Por ejemplo, si tenemos una colección de estudiantes, podemos saber si todo el grupo aprueba :smile: de la siguiente forma:
 
 ```ruby
-alumnos.all? { |un_alumno| un_alumno.aprobo? }
+estudiantes.all? { |un_estudiante| un_estudiante.aprobo? }
 ```
 
-De manera muy similar podemos saber si **alguno** de la colección cumple cierta condición mediante el mensaje `any?`. Siguiendo el ejemplo anterior, ahora queremos saber si por lo menos uno de nuestros alumnos aprobó :unamused: :
+De manera muy similar podemos saber si **algún elemento** de la colección cumple cierta condición mediante el mensaje `any?`. Siguiendo el ejemplo anterior, ahora queremos saber si por lo menos alguien aprobó :unamused: :
 
 ```ruby
-alumnos.any? { |un_alumno| un_alumno.aprobo? }
+estudiantes.any? { |un_estudiante| un_estudiante.aprobo? }
 ```
 
 > Definí los siguientes métodos en nuestra `Juegoteca`:
