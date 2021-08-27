@@ -14,6 +14,6 @@ numeros_de_la_suerte.index 7
   # Nos retorna la posición de un elemento en la lista
 ```
 
-... no podemos enviárselos a un set porque sus elementos están ordenados. :scream:
+... no podemos enviárselos a un set porque sus elementos no están ordenados. :scream:
 
 Pero no te preocupes, todos lo que veamos de ahora en adelante en esta lección funciona tanto para listas como para sets. :muscle:
