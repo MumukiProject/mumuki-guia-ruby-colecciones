@@ -14,6 +14,7 @@ it "Si se adquiere otro juego se agrega a los juegos y suma puntos"  do
   Juegoteca.adquirir_juego!(OtroJuego)
   expect(Juegoteca.juegos.include?(OtroJuego)).to be true
   expect(Juegoteca.puntos()).to eq 150
+  Juegoteca.juegos.delete(OtroJuego)
 end
 
 it "La Juegoteca no es completa al iniciar" do
