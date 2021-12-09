@@ -21,6 +21,14 @@ it "La Juegoteca no es completa al iniciar" do
   expect(Juegoteca.completa?).to be false
 end
 
+it "La Juegoteca no es completa si tiene 5 juegos o menos" do
+	Juegoteca.adquirir_juego!(OtroJuego)
+  	Juegoteca.adquirir_juego!(OtroJuego)
+  	Juegoteca.instance_variable_set('@puntos', 1001)
+  	expect(Juegoteca.completa?).to be false
+  	2.times { Juegoteca.juegos.delete(OtroJuego) }
+end
+
 it "La Juegoteca no es completa si tiene 1000 puntos o menos" do
 	Juegoteca.adquirir_juego!(OtroJuego)
 	Juegoteca.adquirir_juego!(OtroJuego)
