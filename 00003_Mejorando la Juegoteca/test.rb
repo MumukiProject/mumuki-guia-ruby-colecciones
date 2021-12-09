@@ -46,8 +46,6 @@ it "La Juegoteca es completa si tiene más de 5 juegos y más de 1000 puntos" do
   	3.times { Juegoteca.juegos.delete(OtroJuego) }
 end
 
-
-
 it "CarlosDuty es recomendable si no está en la Juegoteca" do
   expect(Juegoteca.juego_recomendable?(CarlosDuty)).to be false
   Juegoteca.borrar_juego!(CarlosDuty)
