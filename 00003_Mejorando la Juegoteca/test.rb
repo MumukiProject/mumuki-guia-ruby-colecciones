@@ -20,30 +20,17 @@ it "La Juegoteca no es completa al iniciar" do
   expect(Juegoteca.completa?).to be false
 end
 
-it "La Juegoteca no es completa si tiene 5 juegos o menos" do
-	Juegoteca.instance_variable_set('@puntos', 1001)
-	Juegoteca.adquirir_juego!(OtroJuego)
-  	Juegoteca.adquirir_juego!(OtroJuego)
-  	expect(Juegoteca.completa?).to be false
-  	2.times { Juegoteca.juegos.delete(OtroJuego) }
-end
-
-it "La Juegoteca no es completa si tiene 1000 puntos o menos" do
-	Juegoteca.instance_variable_set('@puntos', 1000)
-	Juegoteca.adquirir_juego!(OtroJuego)
-	Juegoteca.adquirir_juego!(OtroJuego)
-	Juegoteca.adquirir_juego!(OtroJuego)
-	expect(Juegoteca.completa?).to be false
-  	3.times { Juegoteca.juegos.delete(OtroJuego) }
-end
-
-it "La Juegoteca es completa si tiene más de 5 juegos y más de 1000 puntos" do
-	Juegoteca.instance_variable_set('@puntos', 1001)
-	Juegoteca.adquirir_juego!(OtroJuego)
-	Juegoteca.adquirir_juego!(OtroJuego)
-	Juegoteca.adquirir_juego!(OtroJuego)
-	expect(Juegoteca.completa?).to be true
-  	3.times { Juegoteca.juegos.delete(OtroJuego) }
+it "Si se adquieren suficientes juegos la Juegoteca es completa" do
+  Juegoteca.adquirir_juego!(OtroJuego)
+  Juegoteca.adquirir_juego!(OtroJuego)
+  Juegoteca.adquirir_juego!(OtroJuego)
+  Juegoteca.adquirir_juego!(OtroJuego)
+  Juegoteca.adquirir_juego!(OtroJuego)
+  expect(Juegoteca.completa?).to be false
+  Juegoteca.adquirir_juego!(OtroJuego)
+  Juegoteca.adquirir_juego!(OtroJuego)
+  expect(Juegoteca.completa?).to be true
+  7.times { Juegoteca.juegos.delete(OtroJuego) }
 end
 
 it "CarlosDuty es recomendable si no está en la Juegoteca" do
