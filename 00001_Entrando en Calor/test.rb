@@ -18,11 +18,11 @@ it "CarlosDuty es violento"  do
 end
 
 it "TimbaElLeon no es violento"  do
-  expect(!TimbaElLeon.violento?).to be true
+  expect(TimbaElLeon.violento?).to be false
 end
 
 it "Metroide inicialmente no es violento"  do
-  expect(!Metroide.violento?).to be true
+  expect(Metroide.violento?).to be false
 end
 
 it "Metroide se vuelve violento si se juega muchas veces"  do
