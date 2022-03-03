@@ -77,8 +77,8 @@ it "Si se juega Metroide por 2 horas su nivel_espacial aumenta en 1"
   expect(Metroide.nivel_espacial).to eq 4
 end
 
-it "Si se juega Metroide por 5 horas y luego de nuevo se juega por 5 horas nivel_espacial aumenta en 2"
+it "Si se juega Metroide por 5 horas y luego de nuevo se juega por 2 horas nivel_espacial aumenta en 2"
   Metroide.jugar!(5)
-  Metroide.jugar!(5)
+  Metroide.jugar!(2)
   expect(Metroide.nivel_espacial).to eq 5
 end
