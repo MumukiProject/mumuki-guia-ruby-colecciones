@@ -9,3 +9,9 @@ module CarlosDuty
     @cantidad_logros
   end
 end
+
+module Metroide
+  def self.nivel_espacial
+    @nivel_espacial
+  end
+end
