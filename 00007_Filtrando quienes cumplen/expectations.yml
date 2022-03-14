@@ -4,5 +4,5 @@ expectations:
   binding: juegos_violentos
   inspection: Uses:select
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: juegos_violentos
+  binding: Juegoteca.juegos_violentos
   inspection: Not:Assigns
