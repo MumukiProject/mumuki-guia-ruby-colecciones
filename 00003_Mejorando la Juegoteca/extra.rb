@@ -1,7 +1,7 @@
 module CarlosDuty
   @cantidad_logros = 0
   
-  def self.violento?
+  def self.interesante?
     true
   end
   
@@ -19,7 +19,7 @@ end
 module TimbaElLeon
   @dificultad = 25
   
-  def self.violento?
+  def self.interesante?
     false
   end
   
@@ -35,7 +35,7 @@ end
 module Metroide
   @nivel_espacial = 3
   
-  def self.violento?
+  def self.interesante?
     @nivel_espacial > 5
   end
   
@@ -49,7 +49,7 @@ module Metroide
 end
 
 module OtroJuego
-  def self.violento?
+  def self.interesante?
     false
   end
 end

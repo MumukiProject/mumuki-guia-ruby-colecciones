@@ -1,7 +1,7 @@
 module TimbaElLeon
   @dificultad = 25
   
-  def self.violento?
+  def self.interesante?
     #<elipsis-for-student@
     false
     #@elipsis-for-student>

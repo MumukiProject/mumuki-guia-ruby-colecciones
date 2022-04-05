@@ -12,5 +12,5 @@ estudiantes.any? { |un_estudiante| un_estudiante.aprobo? }
 
 > Definí los siguientes métodos en nuestra `Juegoteca`:
 >
-> * `mucha_violencia?`: se cumple si todos los juegos que posee son violentos.
+> * `muy_interesante?`: se cumple si todos los juegos que posee son interesantes.
 > * `muy_dificil?`: nos dice si alguno de los juegos tiene más de 25 puntos de dificultad.

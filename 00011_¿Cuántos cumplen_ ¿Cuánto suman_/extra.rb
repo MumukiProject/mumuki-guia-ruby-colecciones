@@ -1,7 +1,7 @@
 module CarlosDuty
   @cantidad_logros = 0
   
-  def self.violento?
+  def self.interesante?
     #<elipsis-for-student@
     true
     #@elipsis-for-student>
@@ -25,7 +25,7 @@ end
 module TimbaElLeon
   @dificultad = 25
   
-  def self.violento?
+  def self.interesante?
     #<elipsis-for-student@
     false
     #@elipsis-for-student>
@@ -47,7 +47,7 @@ end
 module Metroide
   @nivel_espacial = 3
   
-  def self.violento?
+  def self.interesante?
     #<elipsis-for-student@
     @nivel_espacial > 5
     #@elipsis-for-student>
@@ -67,7 +67,7 @@ module Metroide
 end
 
 module JuegoViolento
-  def self.violento?
+  def self.interesante?
     true
   end
   

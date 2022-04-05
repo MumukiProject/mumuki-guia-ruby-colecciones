@@ -4,7 +4,7 @@ expectations:
   binding: CarlosDuty
   inspection: Not:Uses:@dificultad
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: violento?
+  binding: interesante?
   inspection: Not:Assigns
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: dificultad

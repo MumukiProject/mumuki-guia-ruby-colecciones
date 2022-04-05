@@ -10,4 +10,4 @@ estudiantes.count { |un_estudiante| un_estudiante.aprobo? }
 estudiantes.sum { |un_estudiante| un_estudiante.nota_en_examen }
 ```
 
-> Veamos si se entiende: agregá a la `Juegoteca` el método `promedio_de_violencia`, cuyo valor sea la sumatoria de dificultad de los juegos violentos dividida por la cantidad de juegos violentos de la `Juegoteca`.
+> Veamos si se entiende: agregá a la `Juegoteca` el método `promedio_de_interes`, cuyo valor sea la sumatoria de dificultad de los juegos interesantes dividida por la cantidad de juegos interesantes de la `Juegoteca`.

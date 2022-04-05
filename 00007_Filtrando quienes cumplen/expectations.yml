@@ -1,8 +1,8 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: juegos_violentos
+  binding: juegos_interesantes
   inspection: Uses:select
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: juegos_violentos
+  binding: juegos_interesantes
   inspection: Not:Assigns

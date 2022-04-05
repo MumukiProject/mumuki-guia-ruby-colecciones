@@ -53,7 +53,7 @@ it "CarlosDuty es recomendable si no está en la Juegoteca" do
   expect(Juegoteca.juego_recomendable?(CarlosDuty)).to be true
 end
 
-it "TimbaElLeon no es recomendable porque no es violento aunque no esté en la Juegoteca" do
+it "TimbaElLeon no es recomendable porque no es interesante aunque no esté en la Juegoteca" do
   Juegoteca.borrar_juego!(TimbaElLeon)
   expect(Juegoteca.juego_recomendable?(TimbaElLeon)).to be false
 end

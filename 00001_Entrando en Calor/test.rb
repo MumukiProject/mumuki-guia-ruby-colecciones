@@ -13,21 +13,21 @@ it "Metroide solo debe tener el atributo @nivel_espacial" do
     expect(Metroide.instance_variables.include? :@nivel_espacial).to be true
 end
 
-it "CarlosDuty es violento"  do
-  expect(CarlosDuty.violento?).to be true
+it "CarlosDuty es interesante"  do
+  expect(CarlosDuty.interesante?).to be true
 end
 
-it "TimbaElLeon no es violento"  do
-  expect(TimbaElLeon.violento?).to be false
+it "TimbaElLeon no es interesante"  do
+  expect(TimbaElLeon.interesante?).to be false
 end
 
-it "Metroide inicialmente no es violento"  do
-  expect(Metroide.violento?).to be false
+it "Metroide inicialmente no es interesante"  do
+  expect(Metroide.interesante?).to be false
 end
 
-it "Metroide se vuelve violento si se juega muchas veces"  do
+it "Metroide se vuelve interesante si se juega muchas veces"  do
   5.times { Metroide.jugar!(10) }
-  expect(Metroide.violento?).to be true
+  expect(Metroide.interesante?).to be true
 end
 
 it "La dificultad inicial del CarlosDuty es 30"  do
