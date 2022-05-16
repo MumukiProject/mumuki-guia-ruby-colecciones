@@ -9,3 +9,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: muy_interesante?
   inspection: Uses:interesante?
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: muy_dificil?
+  inspection: Uses:<
