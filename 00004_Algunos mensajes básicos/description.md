@@ -12,7 +12,8 @@ numeros_de_la_suerte.delete 7
   # ...y quita el 7.
 ```
 
-También podemos saber saber si un elemento está en la colección usando `include?`:
+También podemos saber si un elemento está en la colección usando `include?`:
+ saber si un elemento está en la colección usando `include?`:
 
 ```ruby
 numeros_de_la_suerte.include? 6
